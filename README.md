@@ -26,7 +26,7 @@
 <br>
 
 ### 파일 설명
-- **code.ipynb** 분석을 위해 작성한 전체 코드(`google colab`에서 작업)
+- **code_meal_prediction.ipynb** 분석을 위해 작성한 전체 코드(`google colab`에서 작업)
 - **presentation.pdf** 프레젠테이션을 위해 제작한 ppt의 pdf 버전
 
 <br>
