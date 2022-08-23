@@ -50,7 +50,10 @@
   
   ※데이터 세트 전처리 과정: train/test set와 fulfillment_center_info.csv, meal_info.csv 파일을 병합<br>
     할인 여부, 최종가-기본가 간의 차액 칼럼 추가(특성공학)<br>
-    주문량의 극단적 우편향을 해결하고자 **상위 5% 주문량 제거** 후 **로짓변환**<br>
+    주문량의 극단적 우편향을 해결하고자 **상위 5% 주문량 제거** 후 **로그를 취함**
+    
+    ![image](https://user-images.githubusercontent.com/90163856/186162509-84671bf6-2e02-478a-ae3e-4ba05aa9f3e0.png)
+
     그 외 결측치 제거, 대소문자 통일 등 기본적인 전처리 완료
 
 <br>
@@ -63,8 +66,16 @@
   - 시각화: seaborn, pyplot, shap 
 - 평가 지표: MAE, Rsquare
 
+1. 기준모델과 평가지표 설정 
 **훈련 에러** `150.13046297451018` 
-**검증 에러** `54.30` 
+**검증 에러** `149.9609293712721` 
+
+#### 시각화 결과 
+
+![image](https://user-images.githubusercontent.com/90163856/186163606-48f4183d-3dd9-41f5-817d-a6a82d3c87f3.png)
+
+![image](https://user-images.githubusercontent.com/90163856/186164677-df254650-dcad-441b-b3c7-294edde09f66.png)
+
 
 
 <br>
