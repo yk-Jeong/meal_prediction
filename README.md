@@ -89,8 +89,8 @@
     - Google colab의 메모리 한계로 세세한 하이퍼파라미터 튜닝을 진행하지 못함
 
 #### 보완방안
-- **국내 배딜식 수요 데이터**를 확보하여 모델링 
-- Google colab 이상의 고성능 컴퓨팅 자원을 활용하여 hyperparameter 재설정 
+- **국내 배달식 수요 데이터**를 확보하여 모델링 
+- Google colab 이상의 고성능 컴퓨팅 자원을 활용하여 hyper-parameter 재설정 
 
 #### 참고한 자료 
 - [2021년 음식배달 시장 규모, 어떻게든 알아본 썰](https://contents.premium.naver.com/connectx/us/contents/220214173319668hn), 하진우, 네이버 커넥터스 프리미엄
