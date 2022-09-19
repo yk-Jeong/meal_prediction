@@ -32,6 +32,7 @@
 
 
 ![image](https://user-images.githubusercontent.com/90163856/186164677-df254650-dcad-441b-b3c7-294edde09f66.png)
+
 → 식료품의 분류(category)가 주문식수에 가장 큰 음의 영향을, 음식 종류(cuisine)가 가장 큰 양의 영향을 끼치고 있음을 확인할 수 있었음
 
 ---
