@@ -30,6 +30,14 @@
 
 ### 결과 요약
 
+**Random Forest**
+validation accuracy: `0.822`, train error: `19.62`, validation error: `54.30`
+
+**Decision Tree**
+validation accuracy: `0.665`, train error: `0.00`, validation error: `73.27`
+
+**Decision Tree**
+validation accuracy: `0.620`, train error: `82.44`, validation error: `82.95`
 
 ![image](https://user-images.githubusercontent.com/90163856/186164677-df254650-dcad-441b-b3c7-294edde09f66.png)
 
@@ -58,7 +66,7 @@
 
 ### 문제해결 과정
 - **145주간 누적된 배달식 데이터**(주간 수요, 서비스센터별 정보, 제공되는 배달식 유형)를 분석
-- 주 사용 라이브러리: scikitlearn, 
+- 주 사용 라이브러리: scikitlearn
 - 모델 설정
   - 예측: 선형/릿지 회귀, 의사결정나무, 랜덤포레스트, 그래디언트 부스팅의 4개 회귀 모델(sklearn 활용)
   - 시각화: seaborn, pyplot, shap 
